@@ -8,15 +8,9 @@ function setBestCustomer() {
   bestCustomer = 'not bob';
 }
 
-//   describe('setBestCustomer()', function() {
-//     it('setBestCustomer', function() {
-//       expect(window.bestCustomer).to.equal(undefined);
-
-//       setBestCustomer();
-
-//       expect(window.bestCustomer).to.equal('not bob');
-//     });
-//   });
+function overwriteBestCustomer() {
+  bestCustomer = 'yes bob';
+}
 
 //   describe('overwriteBestCustomer()', function() {
 //     it('overwrites the best customer', function() {
