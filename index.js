@@ -1,6 +1,4 @@
-function(customerName) {
-  var customerName = 'bob';
-}
+var customerName = 'bob';
 
 // describe('Fix the Scope', function() {
 //   describe('declare customerName to be bob in global scope', function() {
