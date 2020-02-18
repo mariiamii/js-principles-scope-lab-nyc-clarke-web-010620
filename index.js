@@ -12,13 +12,11 @@ function overwriteBestCustomer() {
   bestCustomer = 'maybe bob';
 }
 
-//   describe('overwriteBestCustomer()', function() {
-//     it('overwrites the best customer', function() {
-//       overwriteBestCustomer('maybe bob');
+const leastFavoriteCustomer = 'kelly';
 
-//       expect(window.bestCustomer).to.equal('maybe bob');
-//     });
-//   });
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = 'kristen';
+}
 
 //   describe('changeLeastFavoriteCustomer()', function() {
 //     it('unsuccessfully tries to reassign the least favorite customer', function() {
