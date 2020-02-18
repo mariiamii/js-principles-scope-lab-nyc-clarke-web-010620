@@ -4,15 +4,9 @@ function upperCaseCustomerName() {
   customerName = customerName.toUpperCase();
 }
 
-  // describe('upperCaseCustomerName()', function() {
-  //   it('modifies the customerName variable', function() {
-  //     expect(window.customerName).to.equal('bob');
-
-  //     upperCaseCustomerName();
-
-  //     expect(window.customerName).to.equal('BOB');
-  //   });
-  // });
+function setBestCustomer(bestCustomer) {
+  bestCustomer = 'not bob';
+}
 
 //   describe('setBestCustomer()', function() {
 //     it('setBestCustomer', function() {
