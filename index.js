@@ -1,5 +1,5 @@
 function(customerName) {
-  var = 'bob';
+  var customerName = 'bob';
 }
 
 // describe('Fix the Scope', function() {
